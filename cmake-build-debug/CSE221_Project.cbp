@@ -87,6 +87,12 @@
 		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/main.c">
 			<Option target="CSE221_Project"/>
 		</Unit>
+		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.cpp">
+			<Option target="CSE221_Project"/>
+		</Unit>
+		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.h">
+			<Option target="CSE221_Project"/>
+		</Unit>
 		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
