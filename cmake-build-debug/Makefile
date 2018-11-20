@@ -123,6 +123,33 @@ CSE221_Project/fast:
 	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/build
 .PHONY : CSE221_Project/fast
 
+cpu/cpu.o: cpu/cpu.c.o
+
+.PHONY : cpu/cpu.o
+
+# target to build an object file
+cpu/cpu.c.o:
+	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o
+.PHONY : cpu/cpu.c.o
+
+cpu/cpu.i: cpu/cpu.c.i
+
+.PHONY : cpu/cpu.i
+
+# target to preprocess a source file
+cpu/cpu.c.i:
+	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/cpu/cpu.c.i
+.PHONY : cpu/cpu.c.i
+
+cpu/cpu.s: cpu/cpu.c.s
+
+.PHONY : cpu/cpu.s
+
+# target to generate assembly for a file
+cpu/cpu.c.s:
+	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/cpu/cpu.c.s
+.PHONY : cpu/cpu.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -150,6 +177,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/main.c.s
 .PHONY : main.c.s
 
+memory/memory.o: memory/memory.c.o
+
+.PHONY : memory/memory.o
+
+# target to build an object file
+memory/memory.c.o:
+	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/memory/memory.c.o
+.PHONY : memory/memory.c.o
+
+memory/memory.i: memory/memory.c.i
+
+.PHONY : memory/memory.i
+
+# target to preprocess a source file
+memory/memory.c.i:
+	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/memory/memory.c.i
+.PHONY : memory/memory.c.i
+
+memory/memory.s: memory/memory.c.s
+
+.PHONY : memory/memory.s
+
+# target to generate assembly for a file
+memory/memory.c.s:
+	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/memory/memory.c.s
+.PHONY : memory/memory.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CSE221_Project"
+	@echo "... cpu/cpu.o"
+	@echo "... cpu/cpu.i"
+	@echo "... cpu/cpu.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... memory/memory.o"
+	@echo "... memory/memory.i"
+	@echo "... memory/memory.s"
 .PHONY : help
 
 

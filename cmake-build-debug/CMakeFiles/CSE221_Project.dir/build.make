@@ -81,17 +81,69 @@ CMakeFiles/CSE221_Project.dir/main.c.o.provides: CMakeFiles/CSE221_Project.dir/m
 CMakeFiles/CSE221_Project.dir/main.c.o.provides.build: CMakeFiles/CSE221_Project.dir/main.c.o
 
 
+CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o: CMakeFiles/CSE221_Project.dir/flags.make
+CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o: ../cpu/cpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangzhen/CLionProjects/CSE221_Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o   -c /Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.c
+
+CMakeFiles/CSE221_Project.dir/cpu/cpu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSE221_Project.dir/cpu/cpu.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.c > CMakeFiles/CSE221_Project.dir/cpu/cpu.c.i
+
+CMakeFiles/CSE221_Project.dir/cpu/cpu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSE221_Project.dir/cpu/cpu.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.c -o CMakeFiles/CSE221_Project.dir/cpu/cpu.c.s
+
+CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o.requires:
+
+.PHONY : CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o.requires
+
+CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o.provides: CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o.requires
+	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o.provides.build
+.PHONY : CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o.provides
+
+CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o.provides.build: CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o
+
+
+CMakeFiles/CSE221_Project.dir/memory/memory.c.o: CMakeFiles/CSE221_Project.dir/flags.make
+CMakeFiles/CSE221_Project.dir/memory/memory.c.o: ../memory/memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangzhen/CLionProjects/CSE221_Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CSE221_Project.dir/memory/memory.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CSE221_Project.dir/memory/memory.c.o   -c /Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.c
+
+CMakeFiles/CSE221_Project.dir/memory/memory.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSE221_Project.dir/memory/memory.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.c > CMakeFiles/CSE221_Project.dir/memory/memory.c.i
+
+CMakeFiles/CSE221_Project.dir/memory/memory.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSE221_Project.dir/memory/memory.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.c -o CMakeFiles/CSE221_Project.dir/memory/memory.c.s
+
+CMakeFiles/CSE221_Project.dir/memory/memory.c.o.requires:
+
+.PHONY : CMakeFiles/CSE221_Project.dir/memory/memory.c.o.requires
+
+CMakeFiles/CSE221_Project.dir/memory/memory.c.o.provides: CMakeFiles/CSE221_Project.dir/memory/memory.c.o.requires
+	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/memory/memory.c.o.provides.build
+.PHONY : CMakeFiles/CSE221_Project.dir/memory/memory.c.o.provides
+
+CMakeFiles/CSE221_Project.dir/memory/memory.c.o.provides.build: CMakeFiles/CSE221_Project.dir/memory/memory.c.o
+
+
 # Object files for target CSE221_Project
 CSE221_Project_OBJECTS = \
-"CMakeFiles/CSE221_Project.dir/main.c.o"
+"CMakeFiles/CSE221_Project.dir/main.c.o" \
+"CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o" \
+"CMakeFiles/CSE221_Project.dir/memory/memory.c.o"
 
 # External object files for target CSE221_Project
 CSE221_Project_EXTERNAL_OBJECTS =
 
 CSE221_Project: CMakeFiles/CSE221_Project.dir/main.c.o
+CSE221_Project: CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o
+CSE221_Project: CMakeFiles/CSE221_Project.dir/memory/memory.c.o
 CSE221_Project: CMakeFiles/CSE221_Project.dir/build.make
 CSE221_Project: CMakeFiles/CSE221_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yangzhen/CLionProjects/CSE221_Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable CSE221_Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yangzhen/CLionProjects/CSE221_Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable CSE221_Project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CSE221_Project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +152,8 @@ CMakeFiles/CSE221_Project.dir/build: CSE221_Project
 .PHONY : CMakeFiles/CSE221_Project.dir/build
 
 CMakeFiles/CSE221_Project.dir/requires: CMakeFiles/CSE221_Project.dir/main.c.o.requires
+CMakeFiles/CSE221_Project.dir/requires: CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o.requires
+CMakeFiles/CSE221_Project.dir/requires: CMakeFiles/CSE221_Project.dir/memory/memory.c.o.requires
 
 .PHONY : CMakeFiles/CSE221_Project.dir/requires
 

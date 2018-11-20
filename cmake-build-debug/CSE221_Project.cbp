@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.cpp">
+		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.c">
 			<Option target="CSE221_Project"/>
 		</Unit>
 		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.h">
@@ -87,7 +87,7 @@
 		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/main.c">
 			<Option target="CSE221_Project"/>
 		</Unit>
-		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.cpp">
+		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.c">
 			<Option target="CSE221_Project"/>
 		</Unit>
 		<Unit filename="/Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.h">

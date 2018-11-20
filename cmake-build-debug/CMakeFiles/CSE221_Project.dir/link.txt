@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/CSE221_Project.dir/main.c.o  -o CSE221_Project 
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/CSE221_Project.dir/main.c.o CMakeFiles/CSE221_Project.dir/cpu/cpu.c.o CMakeFiles/CSE221_Project.dir/memory/memory.c.o  -o CSE221_Project 

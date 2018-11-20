@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/yangzhen/CLionProjects/CSE221_Project/cmake-build-debu
 CMakeFiles/CSE221_Project.dir/all:
 	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/depend
 	$(MAKE) -f CMakeFiles/CSE221_Project.dir/build.make CMakeFiles/CSE221_Project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yangzhen/CLionProjects/CSE221_Project/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target CSE221_Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yangzhen/CLionProjects/CSE221_Project/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target CSE221_Project"
 .PHONY : CMakeFiles/CSE221_Project.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/CSE221_Project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CSE221_Project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yangzhen/CLionProjects/CSE221_Project/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yangzhen/CLionProjects/CSE221_Project/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CSE221_Project.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yangzhen/CLionProjects/CSE221_Project/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CSE221_Project.dir/rule

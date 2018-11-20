@@ -3,4 +3,4 @@ project(CSE221_Project C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(CSE221_Project main.c cpu/cpu.cpp cpu/cpu.h memory/memory.cpp memory/memory.h)
+add_executable(CSE221_Project cpu/cpu.h memory/memory.h main.c cpu/cpu.c memory/memory.c)

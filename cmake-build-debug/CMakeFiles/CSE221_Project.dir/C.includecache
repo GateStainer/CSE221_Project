@@ -6,9 +6,31 @@
 
 #IncludeRegexTransform: 
 
+/Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.c
+cpu.h
+/Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.h
+
+/Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.h
+stdio.h
+-
+unistd.h
+-
+stdio.h
+-
+unistd.h
+-
+
 /Users/yangzhen/CLionProjects/CSE221_Project/main.c
 stdio.h
 -
 unistd.h
 -
+cpu/cpu.h
+/Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.h
+
+/Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.c
+memory.h
+/Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.h
+
+/Users/yangzhen/CLionProjects/CSE221_Project/memory/memory.h
 
