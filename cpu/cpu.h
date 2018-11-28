@@ -10,6 +10,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
+static int fd[2];
+
 //Run measurements of CPU part
 void cpu_measure();
 
@@ -57,5 +59,16 @@ void procedureCall_overhead();
 //Print out the cpu overhead for a system call
 //TODO: Compare different types of system calls
 void systemCall_overhead();
+
+//Print out the cpu overhead for fork()
+void processCreate_overhead();
+
+//Print out the cpu overhead for pthread_create()
+void threadCreate_overhead();
+
+//Print out the cpu overhead for process switch
+void processSwitch_overhead();
+
+void threadSwitch_overhead();
 
 #endif //CPU_H

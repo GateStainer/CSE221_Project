@@ -9,6 +9,10 @@
 /Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.c
 cpu.h
 /Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.h
+stdlib.h
+-
+pthread.h
+-
 
 /Users/yangzhen/CLionProjects/CSE221_Project/cpu/cpu.h
 stdio.h

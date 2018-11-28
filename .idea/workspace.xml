@@ -12,25 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5e28841-898b-4f47-ac98-43206f5456b9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/memory/memory.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CSE221_Project.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CSE221_Project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CSE221_Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CSE221_Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpu/cpu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cpu/cpu.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CSE221_Project" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CSE221_Project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpu/cpu.c" beforeDir="false" afterPath="$PROJECT_DIR$/cpu/cpu.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cpu/cpu.h" beforeDir="false" afterPath="$PROJECT_DIR$/cpu/cpu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memory/memory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,28 +53,30 @@
       <file leaf-file-name="cpu.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cpu/cpu.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+            <state relative-caret-position="356">
+              <caret line="248" column="104" lean-forward="true" selection-start-line="248" selection-start-column="104" selection-end-line="248" selection-end-column="104" />
               <folding>
-                <element signature="e#817#997#0" />
-                <element signature="e#999#1025#0" />
-                <element signature="e#604#633#0" />
-                <element signature="e#874#912#0" />
+                <element signature="e#39#55#0" expanded="true" />
+                <element signature="e#230#410#0" />
+                <element signature="e#412#709#0" />
+                <element signature="e#711#956#0" />
+                <element signature="e#1674#3514#0" />
+                <element signature="e#3516#3733#0" />
+                <element signature="e#3735#4180#0" />
+                <element signature="e#4197#4230#0" />
+                <element signature="e#4683#4733#0" />
+                <element signature="e#5479#5617#0" />
+                <element signature="e#5630#5671#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="memory.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/memory/memory.c">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="cpu.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cpu/cpu.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+            <state relative-caret-position="397">
+              <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
               <folding>
                 <element signature="e#68#86#0" expanded="true" />
                 <element signature="e#199#622#0" />
@@ -123,9 +111,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="106" />
-    <option name="y" value="88" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="126" />
+    <option name="y" value="74" />
     <option name="width" value="1376" />
     <option name="height" value="877" />
   </component>
@@ -198,15 +186,17 @@
       <option name="presentableId" value="Default" />
       <updated>1540880357050</updated>
       <workItem from="1540880358685" duration="2837000" />
-      <workItem from="1542664297714" duration="10879000" />
+      <workItem from="1542664297714" duration="11174000" />
+      <workItem from="1543127042603" duration="1344000" />
+      <workItem from="1543363330631" duration="3409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13716000" />
+    <option name="totallyTimeSpent" value="18764000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="88" width="1376" height="877" extended-state="1" />
+    <frame x="126" y="74" width="1376" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -238,24 +228,110 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/memory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpu/cpu.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="e#68#86#0" expanded="true" />
+            <element signature="e#199#622#0" />
+            <element signature="e#624#1044#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpu/cpu.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="134" column="27" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
+          <folding>
+            <element signature="e#39#55#0" expanded="true" />
+            <element signature="e#230#410#0" />
+            <element signature="e#412#709#0" />
+            <element signature="e#711#956#0" />
+            <element signature="e#1674#3514#0" />
+            <element signature="e#3516#3733#0" />
+            <element signature="e#3735#4180#0" />
+            <element signature="e#4197#4230#0" />
+            <element signature="e#4683#4733#0" />
+            <element signature="e#5479#5617#0" />
+            <element signature="e#5630#5671#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/memory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpu/cpu.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <folding>
+            <element signature="e#68#86#0" expanded="true" />
+            <element signature="e#199#622#0" />
+            <element signature="e#624#1044#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpu/cpu.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="133" column="20" lean-forward="true" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+          <folding>
+            <element signature="e#39#55#0" expanded="true" />
+            <element signature="e#230#410#0" />
+            <element signature="e#412#709#0" />
+            <element signature="e#711#956#0" />
+            <element signature="e#1674#3514#0" />
+            <element signature="e#3516#3733#0" />
+            <element signature="e#3735#4180#0" />
+            <element signature="e#4197#4230#0" />
+            <element signature="e#4683#4733#0" />
+            <element signature="e#5479#5617#0" />
+            <element signature="e#5630#5671#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cpu/cpu.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory/memory.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
     <entry file="file://$PROJECT_DIR$/memory/memory.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -275,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cpu/cpu.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+        <state relative-caret-position="397">
+          <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
           <folding>
             <element signature="e#68#86#0" expanded="true" />
             <element signature="e#199#622#0" />
@@ -285,18 +361,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memory/memory.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cpu/cpu.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="356">
+          <caret line="248" column="104" lean-forward="true" selection-start-line="248" selection-start-column="104" selection-end-line="248" selection-end-column="104" />
           <folding>
-            <element signature="e#817#997#0" />
-            <element signature="e#999#1025#0" />
-            <element signature="e#604#633#0" />
-            <element signature="e#874#912#0" />
+            <element signature="e#39#55#0" expanded="true" />
+            <element signature="e#230#410#0" />
+            <element signature="e#412#709#0" />
+            <element signature="e#711#956#0" />
+            <element signature="e#1674#3514#0" />
+            <element signature="e#3516#3733#0" />
+            <element signature="e#3735#4180#0" />
+            <element signature="e#4197#4230#0" />
+            <element signature="e#4683#4733#0" />
+            <element signature="e#5479#5617#0" />
+            <element signature="e#5630#5671#0" />
           </folding>
         </state>
       </provider>
