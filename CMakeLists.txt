@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(CSE221_Project C)
-
+set(CMAKE_C_COMPILER clang)
 set(CMAKE_C_STANDARD 11)
-
-add_executable(CSE221_Project cpu/cpu.h memory/memory.h main.c cpu/cpu.c memory/memory.c)
+add_executable(cpu cpu/cpu.h cpu/main.c cpu/cpu.c)
+add_executable(memory memory/memory.h memory/main.c memory/memory.c)

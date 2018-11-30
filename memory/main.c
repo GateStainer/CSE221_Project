@@ -4,18 +4,12 @@
 
 #include <stdio.h>
 #include <unistd.h>
-#include "cpu/cpu.h"
-
-void inline measured_function(volatile int *var)
-{
-	(*var) = 1;
-}
-
+#include "memory.h"
 
 
 int main()
 {
-    cpu_measure();
+    memory_measure();
 	return 0;
 }
 
