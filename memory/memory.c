@@ -2,7 +2,7 @@
 // Created by Push on 11/19/18.
 //
 
-#include <malloc.h>
+#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <sys/mman.h>
@@ -99,8 +99,8 @@ void page_fault_service() {
             printf("open large file failed\n");
             exit(-1);
         }
-        const int OFFSET = 4096; //4 KB
-        const int FILE_SIZE = 268435456; //256M
+        const int OFFSET = 4096*4; //4 KB
+        const int FILE_SIZE = 268435456*4; //256M
         const int times = FILE_SIZE / OFFSET;
         char* map =(char*) mmap(NULL, FILE_SIZE, PROT_READ | PROT_WRITE, MAP_SHARED, f, 0);
         volatile char value = 0;
@@ -112,11 +112,15 @@ void page_fault_service() {
         unsigned long cycles = end - start;
         cycles /= times;
         average_cycles += cycles;
+        munmap(map, FILE_SIZE);
     }
     average_cycles /= REPEAT_TIMES;
     printf("average cycles is %g", average_cycles);
 }
 
 void memory_measure() {
-    page_fault_service();
+   // measure_bandwidth();
+    FILE *f = fopen("record.csv", "w");
+    measure_ram(11, 9, f);
+    //page_fault_service();
 }

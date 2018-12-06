@@ -17,7 +17,7 @@ void cpu_measure()
     //processCreate_overhead();
     //threadCreate_overhead();
     //processSwitch_overhead();
-    threadSwitch_overhead();
+    //threadSwitch_overhead();
 
 }
 
